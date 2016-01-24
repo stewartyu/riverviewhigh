@@ -27,7 +27,7 @@ var config = {
       name: 'riverviewhigh'
     },
     port: 3000,
-    db: 'mongodb://localhost/riverviewhigh-production'
+    db: 'mongodb://heroku_rsw250st:bbk77p03iu0lrr13lfta93givq@ds049945.mongolab.com:49945/heroku_rsw250st'
   }
 };
 
