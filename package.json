@@ -16,11 +16,11 @@
     "method-override": "^2.3.0",
     "glob": "^5.0.3",
     "mongoose": "^4.1.2",
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "gulp": "^3.9.0",
+    "gulp-ruby-sass": "^2.0.1"
   },
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-ruby-sass": "^2.0.1",
     "gulp-nodemon": "^2.0.2",
     "gulp-livereload": "^3.8.0",
     "gulp-plumber": "^1.0.0"
