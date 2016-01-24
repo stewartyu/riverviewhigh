@@ -36,7 +36,3 @@ gulp.task('default', [
   'develop',
   'watch'
 ]);
-
-gulp.task('heroku:production', [
-  'sass'
-])
