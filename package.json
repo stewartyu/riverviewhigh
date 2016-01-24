@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node app.js",
-    "prestart": "gulp sass"
+    "postinstall": "gulp sass"
   },
   "dependencies": {
     "express": "^4.13.3",
