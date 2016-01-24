@@ -37,4 +37,4 @@ gulp.task('default', [
   'watch'
 ]);
 
-gulp.tasks('heroku:production', ['default']);
+gulp.task('heroku:production', ['default']);
