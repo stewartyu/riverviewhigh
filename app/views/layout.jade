@@ -1,3 +1,8 @@
+- var aboutSelected = (slug === 'about') ? 'nav--selected' : '';
+- var licensingSelected = (slug === 'licensing') ? 'nav--selected' : '';
+- var sheetMusicSelected = (slug === 'sheet-music') ? 'nav--selected' : '';
+- var soundtrackSelected = (slug === 'soundtrack') ? 'nav--selected' : '';
+
 doctype html
 html.no-js
   head
@@ -17,10 +22,10 @@ html.no-js
             img.header__logo(src='/img/logo.png', width='150')
           a.header__menu ☰
         nav.nav
-          a.nav__item.if.endif(class="#{ (slug === 'about') ? 'nav--selected' }", href='/about') About
-          a.nav__item.if.endif(class="#{ (slug === 'licensing') ? 'nav--selected' }", href='/licensing') Licensing
-          a.nav__item.if.endif(class="#{ (slug === 'sheet-music') ? 'nav--selected' }", href='/sheet-music') Sheet Music
-          a.nav__item.if.endif(class="#{ (slug === 'soundtrack') ? 'nav--selected' }", href='/soundtrack') Soundtrack
+          a.nav__item(class="#{aboutSelected}", href='/about') About
+          a.nav__item(class="#{licensingSelected}", href='/licensing') Licensing
+          a.nav__item(class="#{sheetMusicSelected}", href='/sheet-music') Sheet Music
+          a.nav__item(class="#{soundtrackSelected}", href='/soundtrack') Soundtrack
       //if lt IE 7
         p.chromeframe
           | Your browser is 
