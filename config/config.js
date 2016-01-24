@@ -26,6 +26,7 @@ var config = {
     app: {
       name: 'riverviewhigh'
     },
+    port: process.env.PORT
     db: 'mongodb://heroku_rsw250st:bbk77p03iu0lrr13lfta93givq@ds049945.mongolab.com:49945/heroku_rsw250st'
   }
 };
