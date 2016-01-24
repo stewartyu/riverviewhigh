@@ -1,8 +1,25 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+@import 'fonts';
 
-a {
-  color: #00B7FF;
-}
+// Base Styles
+@import 'reset';
+@import 'variables';
+@import 'mixins';
+@import 'document';
+@import 'utilities';
+
+// Components
+@import 'components/col-2up';
+@import 'components/col-sidebar';
+@import 'components/callout';
+@import 'components/button';
+@import 'components/story';
+@import 'components/nav';
+
+// Partials
+@import 'partials/header';
+@import 'partials/footer';
+
+// Pages
+@import 'pages/home';
+@import 'pages/sheet-music';
+@import 'pages/soundtrack';
