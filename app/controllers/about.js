@@ -1,18 +1,14 @@
-var express = require('express'),
-  router = express.Router(),
-  mongoose = require('mongoose'),
-  Article = mongoose.model('Article');
+var express = require('express');
+var router = express.Router();
+var mongoose = require('mongoose');
 
 module.exports = function (app) {
-  app.use('/', router);
+    app.use('/', router);
 };
 
 router.get('/about', function (req, res, next) {
-  Article.find(function (err, articles) {
-    if (err) return next(err);
     res.render('about', {
-      title: 'About',
-      slug: 'about'
+        title: 'About',
+        slug: 'about'
     });
-  });
 });
