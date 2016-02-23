@@ -199,20 +199,14 @@ strong {
   padding-right: 20px; }
 
 .col-2up {
-  *zoom: 1; }
-  .col-2up:after {
-    content: '';
-    display: table;
-    clear: both; }
+  display: flex; }
 
 .col-2up__column {
-  float: left;
   width: 50%; }
 
 /* MOBILE */
 @media only screen and (max-width: 700px) {
   .col-2up__column {
-    float: none;
     width: 100%; } }
 .col-sidebar {
   *zoom: 1; }
